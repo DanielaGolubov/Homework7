@@ -1,0 +1,95 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.square {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    text-align: right;
+}
+
+/* ex1 */
+.square1 {
+    background-color: rgb(105, 21, 21);
+    z-index: 5;
+    left: 16px;
+
+}
+
+.square2 {
+    background-color: powderblue;
+    z-index: 4;
+    left: 32px;
+}
+
+.square3 {
+    background-color: goldenrod;
+    z-index: 3;
+    left: 48px;
+}
+
+.square4 {
+    background-color: yellowgreen;
+    z-index: 2;
+    left: 64px;
+}
+
+.square5 {
+    background-color: blueviolet;
+    left: 80px;
+}
+
+/* ex2 */
+.test1 {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    top: 50vh;
+    right: calc(50vw - 48px);
+    border: 1px solid red;
+}
+
+/* ex3 */
+.text1 {
+    top: 100px;
+    position: absolute;
+    display: none;
+}
+
+.text2 {
+    top: 120px;
+    position: absolute;
+    visibility: hidden;
+}
+
+/* ex4 */
+.parent1 {
+    top: 150px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.child1 {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    padding: 16px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+/* ex5 */
+.exercise5 {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    gap: 16px;
+}
